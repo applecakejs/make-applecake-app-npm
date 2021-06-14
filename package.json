@@ -15,12 +15,15 @@
     "make-app"
   ],
   "bin": {
-    "make-applecake-app":"bin/cli.js"
+    "make-applecake-app": "bin/cli.js"
   },
   "author": "mehan alavimajd",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/applecakejs/make-applecake-app-npm/issues"
   },
-  "homepage": "https://github.com/applecakejs/make-applecake-app-npm#readme"
+  "homepage": "https://github.com/applecakejs/make-applecake-app-npm#readme",
+  "dependencies": {
+    "chalk": "^4.1.1"
+  }
 }
