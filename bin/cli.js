@@ -6,4 +6,3 @@ if (args.length !== 1) {
   throw Error("please only put name after make-applecake-app")
 }
 exec.exec("app")
-console.log(args);
