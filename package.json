@@ -1,8 +1,11 @@
 {
   "name": "make-applecake-app",
   "version": "1.0.0",
-  "description": "the npm package of make-applecake-app",
+  "description": "a npm package to create a directory for applecake.js",
   "main": "index.js",
+  "bin": {
+    "make-applecake-app": "./bin/args.js"
+  },
   "scripts": {
     "test": "exit 0"
   },
@@ -11,19 +14,13 @@
     "url": "git+https://github.com/applecakejs/make-applecake-app-npm.git"
   },
   "keywords": [
-    "applecake",
-    "make-app"
+    "cli",
+    "applecake"
   ],
-  "bin": {
-    "make-applecake-app": "bin/cli.js"
-  },
   "author": "mehan alavimajd",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/applecakejs/make-applecake-app-npm/issues"
   },
-  "homepage": "https://github.com/applecakejs/make-applecake-app-npm#readme",
-  "dependencies": {
-    "chalk": "^4.1.1"
-  }
+  "homepage": "https://github.com/applecakejs/make-applecake-app-npm#readme"
 }
